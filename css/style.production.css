@@ -132,22 +132,33 @@ button:focus,
   padding: 10px;
 }
 
-.navigation-list__item--active {
+/* .navigation-list__item--active {
   text-decoration: none;
-}
+} */
 
 .about-list {
   list-style-type: none;
 }
 
 .about-content {
+  max-width: 700px;
+  margin: 40px auto 20px auto;
   text-align: center;
+  padding: 20px;
 }
 
 #about-picture {
-  max-width: 100%;
+  width: 600px;
   height: auto;
-  margin: 50px;
+  display: block;
+  margin: 0 auto 20px auto; 
+}
+
+.skills-table {
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse;
+  width: 60%;
+  background-color: #fff;
 }
 
 .work-content {
