@@ -115,7 +115,7 @@ button:focus,
 .profile {
   min-width: 360px;
   max-width: 700px;
-  margin: 60px auto 0; /* top = 50px, horizontal = auto, bottom = 0 */
+  margin: 60px auto 0; /* top = 60px, horizontal = auto, bottom = 0 */
 }
 
 .page-header {
@@ -147,17 +147,18 @@ button:focus,
   padding: 10px;
 }
 
-/* .navigation-list__item--active {
+.navigation-list__item--active {
   text-decoration: none;
-} */
+} 
 
 .about-list {
   list-style-type: none;
 }
 
 .about-content {
+  min-width: 360px;
   max-width: 700px;
-  margin: 40px auto 20px auto;
+  margin: 60px auto 0;
   text-align: center;
   padding: 20px;
 }
@@ -186,6 +187,7 @@ button:focus,
 }
 
 .contact-info {
+  text-align: center;
   width: 500px;
   margin: auto;
 }
