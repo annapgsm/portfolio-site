@@ -7,6 +7,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; /* this makes sure footer gets pushed to the bottom if main is small */
 }
 
 h1 {
@@ -59,6 +66,8 @@ button {
   transition-property: opacity;
 }
 
+/*why two button styling with same input needed?---*/
+
 .button {
   /* overwrites browser defaults and resets the border */
   border: none;
@@ -91,7 +100,8 @@ button:focus,
   float: left;
   width: 250px;
   margin-right: 40px;
-  border-radius: 50%;
+  margin-bottom: 40px;
+  border-radius: 50%; /*rounds the image*/
 }
 
 .page-footer {
@@ -99,18 +109,22 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: lightsteelblue;
 }
 
 .profile {
+  min-width: 360px;
   max-width: 700px;
-  margin: 0 auto;
+  margin: 60px auto 0; /* top = 50px, horizontal = auto, bottom = 0 */
 }
 
 .page-header {
   display: flex;
+  justify-content: center;
   width: 100%;
-  padding: 20px;
+  padding: 20px; 
 }
+/* puts header to the right
 
 .page-header__item {
   flex: 0 1 200px;
@@ -120,6 +134,7 @@ button:focus,
   flex-grow: 1;
   text-align: right;
 }
+*/
 
 .navigation-list {
   list-style-type: none;
