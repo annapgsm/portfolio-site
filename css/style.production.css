@@ -147,9 +147,9 @@ button:focus,
   padding: 10px;
 }
 
-.navigation-list__item--active {
+/* .navigation-list__item--active {
   text-decoration: none;
-} 
+} */
 
 .about-list {
   list-style-type: none;
