@@ -324,3 +324,9 @@ textarea {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
